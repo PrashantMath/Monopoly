@@ -21,5 +21,5 @@ if %errorlevel% EQU 1 (
    cd "C:\Polyspace\Tools\Jenkins"
    exit /b %errorlevel%
 )
-rm -f *.o *.exe
+del *.o
 
