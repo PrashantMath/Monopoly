@@ -210,7 +210,7 @@ square * board::get_starting_square()
 {
 	int i = 0;
 
-	if (i = 1)
+	if (i = 1) // polyspace DEFECT:BAD_EQUAL_USE [To investigate:High] "Equal sign has to be added."
 		printf("Dead \n");
 
     return get_square(0);
