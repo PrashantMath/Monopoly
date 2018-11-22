@@ -1,7 +1,7 @@
 set PATH=C:\MinGW\bin\;%PATH%
 @echo on
 
-cd "C:\My_Drive\Git_Rep\Monopoly"
+cd "C:\My_Drive\Git_Rep\workspace"
 del *.o
 g++  -I ./includes  -c -o main.o main.cpp
 g++  -I ./includes  -c -o board.o board.cpp
