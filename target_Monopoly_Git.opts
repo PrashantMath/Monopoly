@@ -1,5 +1,6 @@
--misra-cpp SQO-subset1
+-misra-cpp all-rules
 -no-extern-C
+-code-metrics
 -D _WPROCESS_DEFINED
 -D __attribute__(a)=
 -D __INT_LEAST8_TYPE__=char

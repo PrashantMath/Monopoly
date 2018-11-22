@@ -1,7 +1,7 @@
 set PATH=C:\MinGW\bin\;%PATH%
 @echo on
 
-cd "C:\My_Drive\Git_Rep\workspace"
+cd "C:\My_Drive\Git_Rep\Monopoly"
 del *.o
 g++  -I ./includes  -c -o main.o main.cpp
 g++  -I ./includes  -c -o board.o board.cpp
@@ -21,4 +21,5 @@ if %errorlevel% EQU 1 (
    cd "C:\Polyspace\Tools\Jenkins"
    exit /b %errorlevel%
 )
+rm -f *.o *.exe
 
